@@ -42,6 +42,6 @@
 
 ## MVP roadmap
 
-## Low priority features
+## Low priority
 
 - [ ] Sync accounts between multiple devices
