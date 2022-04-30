@@ -1,6 +1,8 @@
 # Plebbit roadmap
 
-## `plebbit-js`
+## Demo roadmap
+
+### `plebbit-js`
 
 - [ ] Publish comment over pubsub
   - [x] Captcha
@@ -26,7 +28,7 @@
   - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
   - [ ] HTTP gateway fallback if IPFS client undefined
 
-## `plebbit-react`
+### `plebbit-react`
 
 - [ ] Post page
 - [ ] Subplebbit feed page
@@ -36,4 +38,10 @@
 - [ ] Submit post page
 - [ ] Moderator/about pages
 
-## `plebbit-react-hooks`
+### `plebbit-react-hooks`
+
+## MVP roadmap
+
+## Low priority features
+
+- [ ] Sync accounts between multiple devices
