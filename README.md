@@ -25,10 +25,7 @@
 - [ ] Post page
 - [ ] Subplebbit feed page
 - [ ] Multisub feed page (p/home, p/all, p/dao)
-- [ ] Own profile page
-- [ ] Settings page
 - [ ] Submit post page
-- [ ] Moderator/about pages
 
 ## `plebbit-react-hooks`
 
@@ -75,6 +72,22 @@
   - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
 - [ ] IPNS over pubsub
 - [ ] Peers block spam IP addresses
+- [ ] Challenges
+  - [ ] Text captcha challenge
+
+## `plebbit-react`
+
+- [ ] Challenges
+  - [ ] Text captcha challenge
+- [ ] Moderator/about pages
+  - [ ] Subplebbit settings
+  - [ ] Subplebbit appearance
+  - [ ] Subplebbit rules
+  - [ ] Subplebbit moderators
+- [ ] Settings page
+- [ ] Own profile page
+  - [ ] Edit NFT avatar
+  - [ ] Edit display name
 
 ## `plebbit-react-hooks`
 
@@ -90,6 +103,15 @@
   - [ ] useAuthorComments
 
 # Low priority
+
+## `plebbit-js`
+
+- [ ] Challenges
+  - [ ] ERC20 staking challenge
+  - [ ] ERC721 staking challenge
+  - [ ] Video captcha challenge
+  - [ ] Audio captcha challenge
+  - [ ] More difficult image captcha challenge
 
 ## `plebbit-react-hooks`
 
