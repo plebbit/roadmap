@@ -45,3 +45,8 @@
 ## Low priority
 
 - [ ] Sync accounts between multiple devices
+- [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
+- [ ] Event/Meetup post type (to compete with Facebook and Meetup.com events)
+- [ ] Marketplace post type (to compete with Facebook marketplace, Shopify, Amazon)
+- [ ] Fundraiser post type (to compete with Gofundme and Kickstarter)
+- [ ] Native Android client, APK only, no app store
