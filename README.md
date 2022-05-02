@@ -52,9 +52,11 @@
 
 ## Low priority
 
-- [ ] Sync accounts between multiple devices
-- [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
+- [ ] Moderator log (a `Page` of CommentEdit publications available both on `Subplebbit.posts` and `Comment.replies`)
+- [ ] Vote log (a `Page` of CommentEdit publications available both on `Subplebbit.posts` and `Comment.replies`)
 - [ ] Event/Meetup post type (to compete with Facebook and Meetup.com events)
 - [ ] Marketplace post type (to compete with Facebook marketplace, Shopify, Amazon)
 - [ ] Fundraiser post type (to compete with Gofundme and Kickstarter)
+- [ ] Sync accounts between multiple devices
+- [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
 - [ ] Native Android client, APK only, no app store
