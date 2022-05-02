@@ -55,6 +55,7 @@
   - [x] useSubplebbits
 - [x] Feeds hooks
   - [x] useFeed
+  - [x] useBufferedFeeds
 
 # MVP roadmap
 
@@ -97,6 +98,7 @@
   - [ ] followComment
   - [ ] hideComment
   - [ ] followAuthor
+  - [ ] limitAddress
 
 ## Misc
 
