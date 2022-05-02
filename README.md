@@ -40,6 +40,23 @@
   - [x] publishComment
   - [x] publishCommentEdit
   - [x] publishVote
+- [x] Account hooks 
+  - [x] useAccount
+  - [x] useAccountComments
+  - [x] useAccountVotes
+  - [x] useAccountVote
+  - [x] useAccounts
+  - [x] useAccountsActions
+  - [x] useAccountNotifications
+- [x] Comments hooks
+  - [x] useComment
+  - [x] useComments
+- [x] Subplebbits hooks
+  - [x] useSubplebbit
+  - [x] useSubplebbits
+- [x] Feeds hooks
+  - [x] useFeed
+  - [x] useAuthorComments
 
 # MVP roadmap
 
@@ -67,6 +84,8 @@
   - [ ] exportAccount
   - [ ] deleteComment
   - [ ] blockAddress
+- [ ] Feeds hooks
+  - [ ] useAuthorComments
 
 # Low priority
 
