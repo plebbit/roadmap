@@ -12,20 +12,13 @@
   - [ ] Pubsub provider fallback if IPFS client undefined
 - [ ] Get comment over IPFS/IPNS
   - [x] Verify author signature
-  - [ ] Resolve `author.address` ENS name
   - [ ] Verify subplebbit owner signature
-  - [ ] Verify NFT avatar signature
-  - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
   - [ ] HTTP gateway fallback if IPFS client undefined
 - [ ] Get subplebbit over IPNS
   - [x] Verify signature
-  - [ ] Resolve `subplebbit.address` ENS name
 - [ ] Get subplebbit pages over IPNS
   - [x] Verify author signature
-  - [ ] Resolve `author.address` ENS name
   - [ ] Verify subplebbit owner signature
-  - [ ] Verify NFT avatar signature
-  - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
   - [ ] HTTP gateway fallback if IPFS client undefined
 
 ### `plebbit-react`
@@ -41,6 +34,21 @@
 ### `plebbit-react-hooks`
 
 ## MVP roadmap
+
+### `plebbit-js`
+
+- [ ] Publish comment over pubsub
+  - [ ] Encrypt challenges and challengeAnswers
+- [ ] Get comment over IPFS/IPNS
+  - [ ] Resolve `author.address` ENS name
+  - [ ] Verify NFT avatar signature
+  - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
+- [ ] Get subplebbit over IPNS
+  - [ ] Resolve `subplebbit.address` ENS name
+- [ ] Get subplebbit pages over IPNS
+  - [ ] Resolve `author.address` ENS name
+  - [ ] Verify NFT avatar signature
+  - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
 
 ## Low priority
 
