@@ -32,7 +32,7 @@
 
 ## `plebbit-react-hooks`
 
-- [x] Account actions
+- [x] Accounts actions
   - [x] createAccount
   - [x] setAccount
   - [x] setActiveAccount
@@ -40,14 +40,13 @@
   - [x] publishComment
   - [x] publishCommentEdit
   - [x] publishVote
-- [x] Account hooks 
+- [x] Accounts hooks 
   - [x] useAccount
   - [x] useAccountComments
   - [x] useAccountVotes
   - [x] useAccountVote
   - [x] useAccounts
   - [x] useAccountsActions
-  - [x] useAccountNotifications
 - [x] Comments hooks
   - [x] useComment
   - [x] useComments
@@ -56,7 +55,6 @@
   - [x] useSubplebbits
 - [x] Feeds hooks
   - [x] useFeed
-  - [x] useAuthorComments
 
 # MVP roadmap
 
@@ -78,12 +76,14 @@
 
 ## `plebbit-react-hooks`
 
-- [ ] Account actions
+- [ ] Accounts actions
   - [ ] deleteAccount
   - [ ] importAccount
   - [ ] exportAccount
   - [ ] deleteComment
   - [ ] blockAddress
+- [x] Accounts hooks
+  - [x] useAccountNotifications
 - [ ] Feeds hooks
   - [ ] useAuthorComments
 
@@ -91,7 +91,7 @@
 
 ## `plebbit-react-hooks`
 
-- [ ] Account actions
+- [ ] Accounts actions
   - [ ] publishReport
   - [ ] saveComment
   - [ ] followComment
