@@ -1,8 +1,6 @@
-# Plebbit roadmap
+# Demo roadmap
 
-## Demo roadmap
-
-### `plebbit-js`
+## `plebbit-js`
 
 - [ ] Publish comment over pubsub
   - [x] Captcha
@@ -16,12 +14,13 @@
   - [ ] HTTP gateway fallback if IPFS client undefined
 - [ ] Get subplebbit over IPNS
   - [x] Verify signature
+  - [ ] HTTP gateway fallback if IPFS client undefined
 - [ ] Get subplebbit pages over IPNS
   - [x] Verify author signature
   - [ ] Verify subplebbit owner signature
   - [ ] HTTP gateway fallback if IPFS client undefined
 
-### `plebbit-react`
+## `plebbit-react`
 
 - [ ] Post page
 - [ ] Subplebbit feed page
@@ -31,11 +30,20 @@
 - [ ] Submit post page
 - [ ] Moderator/about pages
 
-### `plebbit-react-hooks`
+## `plebbit-react-hooks`
 
-## MVP roadmap
+- [x] Account actions
+  - [x] createAccount
+  - [x] setAccount
+  - [x] setActiveAccount
+  - [x] setAccountsOrder
+  - [x] publishComment
+  - [x] publishCommentEdit
+  - [x] publishVote
 
-### `plebbit-js`
+# MVP roadmap
+
+## `plebbit-js`
 
 - [ ] Publish comment over pubsub
   - [ ] Encrypt challenges and challengeAnswers
@@ -49,8 +57,29 @@
   - [ ] Resolve `author.address` ENS name
   - [ ] Verify NFT avatar signature
   - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
+- [ ] IPNS over pubsub
 
-## Low priority
+## `plebbit-react-hooks`
+
+- [ ] Account actions
+  - [ ] deleteAccount
+  - [ ] importAccount
+  - [ ] exportAccount
+  - [ ] deleteComment
+  - [ ] blockAddress
+
+# Low priority
+
+## `plebbit-react-hooks`
+
+- [ ] Account actions
+  - [ ] publishReport
+  - [ ] saveComment
+  - [ ] followComment
+  - [ ] hideComment
+  - [ ] followAuthor
+
+## Misc
 
 - [ ] Moderator log (a `Page` of CommentEdit publications available both on `Subplebbit.posts` and `Comment.replies`)
 - [ ] Vote log (a `Page` of CommentEdit publications available both on `Subplebbit.posts` and `Comment.replies`)
