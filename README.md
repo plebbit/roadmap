@@ -74,6 +74,7 @@
   - [ ] Verify NFT avatar signature
   - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
 - [ ] IPNS over pubsub
+- [ ] Peers block spam IP addresses
 
 ## `plebbit-react-hooks`
 
@@ -99,6 +100,7 @@
   - [ ] hideComment
   - [ ] followAuthor
   - [ ] limitAddress
+- [ ] Round robin multiple pubsub providers and IPFS gateways
 
 ## Misc
 
@@ -110,3 +112,4 @@
 - [ ] Sync accounts between multiple devices
 - [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
 - [ ] Native Android client, APK only, no app store
+- [ ] Make `pubsub-provider` more spam resistant
