@@ -88,6 +88,19 @@
 - [ ] Own profile page
   - [ ] Edit NFT avatar
   - [ ] Edit display name
+- [ ] Translations
+  - [ ] Arabic
+  - [ ] Chinese
+  - [ ] Hindi
+  - [ ] Spanish
+  - [ ] Russian
+  - [ ] Japanese
+  - [ ] Portuguese
+  - [ ] German
+  - [ ] Korean
+  - [ ] French
+  - [ ] Italian
+  - [ ] Turkish
 
 ## `plebbit-react-hooks`
 
@@ -138,3 +151,4 @@
 - [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
 - [ ] Native Android client, APK only, no app store
 - [ ] Make `pubsub-provider` more spam resistant
+- [ ] Share provider (a server that caches a plebbit page and hosts it on a random domain for 24h to easily share on other social medias)
