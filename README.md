@@ -109,6 +109,9 @@
 - [ ] Challenges
   - [ ] ERC20 staking challenge
   - [ ] ERC721 staking challenge
+  - [ ] ERC20 tipping challenge
+  - [ ] ERC20 balance challenge
+  - [ ] ERC721 balance challenge
   - [ ] Video captcha challenge
   - [ ] Audio captcha challenge
   - [ ] More difficult image captcha challenge
