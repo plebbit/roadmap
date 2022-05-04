@@ -23,9 +23,12 @@
 ## `plebbit-react`
 
 - [ ] Post page
-- [ ] Subplebbit feed page
-- [ ] Multisub feed page (p/home, p/all, p/dao)
+- [x] Feed page
+  - [x] Infinite scroll
+  - [x] Loading skeleton
 - [ ] Submit post page
+- [ ] Publish vote and captcha modal
+- [ ] Publish comment and captcha modal
 
 ## `plebbit-react-hooks`
 
@@ -88,6 +91,19 @@
 - [ ] Own profile page
   - [ ] Edit NFT avatar
   - [ ] Edit display name
+- [ ] Feed page
+  - [ ] Author address (ENS or 12 characters public key)
+  - [ ] Author avatar image
+  - [ ] Author flair
+  - [ ] Post flair
+  - [ ] Date
+  - [ ] Full embed images
+  - [ ] Small thumbnails
+  - [ ] Share button
+  - [ ] Block button
+  - [ ] Sidebar links
+  - [ ] Sidebar popular communities
+  - [ ] Nicely display broken images and thumbnails
 - [ ] Translations
   - [ ] Arabic
   - [ ] Chinese
@@ -101,6 +117,9 @@
   - [ ] French
   - [ ] Italian
   - [ ] Turkish
+- [ ] Improve logo and 'plebbit' text light and dark mode
+- [ ] Improve captcha modal design
+- [ ] Search default subs
 
 ## `plebbit-react-hooks`
 
