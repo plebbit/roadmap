@@ -26,9 +26,10 @@
 - [x] Feed page
   - [x] Infinite scroll
   - [x] Loading skeleton
-- [ ] Submit post page
+- [x] Submit post page
 - [ ] Publish vote and captcha modal
-- [ ] Publish comment and captcha modal
+- [x] Publish comment and captcha modal
+- [ ] Auto login with default account
 
 ## `plebbit-react-hooks`
 
@@ -87,10 +88,20 @@
   - [ ] Subplebbit appearance
   - [ ] Subplebbit rules
   - [ ] Subplebbit moderators
-- [ ] Settings page
+- [ ] Settings pages
+  - [ ] Account
+    - [ ] Language
+    - [ ] Location
+  - [ ] Profile
+    - [ ] NFT avatar
+    - [ ] Display name
+    - [ ] Crypto wallet addresses (to receive tips and awards)
+  - Safety & Privacy
+    - [ ] Blocked addresses
 - [ ] Own profile page
   - [ ] Edit NFT avatar
   - [ ] Edit display name
+  - [ ] Edit crypto wallet addresses (to receive tips and awards)
 - [ ] Feed page
   - [ ] Author address (ENS or 12 characters public key)
   - [ ] Author avatar image
@@ -104,6 +115,7 @@
   - [ ] Sidebar links
   - [ ] Sidebar popular communities
   - [ ] Nicely display broken images and thumbnails
+  - [ ] Switch sort types
 - [ ] Translations
   - [ ] Arabic
   - [ ] Chinese
@@ -133,6 +145,10 @@
   - [x] useAccountNotifications
 - [ ] Feeds hooks
   - [ ] useAuthorComments
+- [ ] PLEB tipping on AVAX
+- [ ] Gold and Silver NFT awards on AVAX
+- [ ] Filter feed by language
+- [ ] Filter feed by location
 
 # Low priority
 
@@ -147,6 +163,32 @@
   - [ ] Video captcha challenge
   - [ ] Audio captcha challenge
   - [ ] More difficult image captcha challenge
+- [ ] Migrate to typescript
+- [ ] Mod subplebbit posts pages
+  - [ ] Mod queue
+  - [ ] Reports
+  - [ ] Spam
+  - [ ] Edited
+  - [ ] Unmoderated
+- [ ] Comment edit log
+- [ ] Comment vote log
+
+## `plebbit-react`
+
+- [ ] Moderator/about pages
+  - [ ] Queues
+    - [ ] Mod queue
+    - [ ] Reports
+    - [ ] Spam
+    - [ ] Edited
+    - [ ] Unmoderated
+- [ ] Create multisub page
+- [ ] Manage multisub page
+- [ ] Migrate to typescript
+- [ ] Comment edit log
+- [ ] Comment vote log
+- [ ] Integrated crypto wallet for desktop client
+- [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
 
 ## `plebbit-react-hooks`
 
@@ -158,9 +200,13 @@
   - [ ] followAuthor
   - [ ] limitAddress
 - [ ] Round robin multiple pubsub providers and IPFS gateways
+- [ ] Define all types
+- [ ] Remove all typescript any and @ts-ignore
 
 ## Misc
 
+- [ ] PLEB DAO vote for curated NFT collection on AVAX
+- [ ] PLEB DAO vote for curated multisubs on AVAX
 - [ ] Moderator log (a `Page` of CommentEdit publications available both on `Subplebbit.posts` and `Comment.replies`)
 - [ ] Vote log (a `Page` of CommentEdit publications available both on `Subplebbit.posts` and `Comment.replies`)
 - [ ] Event/Meetup post type (to compete with Facebook and Meetup.com events)
