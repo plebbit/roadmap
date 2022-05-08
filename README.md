@@ -6,19 +6,19 @@
   - [x] Captcha
   - [x] Signature
   - [x] Encryption
-  - [ ] HTTP gateway fallback if IPFS client undefined
-  - [ ] Pubsub provider fallback if IPFS client undefined
+  - [x] HTTP gateway fallback if IPFS client undefined
+  - [x] Pubsub provider fallback if IPFS client undefined
 - [ ] Get comment over IPFS/IPNS
   - [x] Verify author signature
   - [ ] Verify subplebbit owner signature
-  - [ ] HTTP gateway fallback if IPFS client undefined
+  - [x] HTTP gateway fallback if IPFS client undefined
 - [ ] Get subplebbit over IPNS
   - [x] Verify signature
-  - [ ] HTTP gateway fallback if IPFS client undefined
+  - [x] HTTP gateway fallback if IPFS client undefined
 - [ ] Get subplebbit pages over IPNS
   - [x] Verify author signature
   - [ ] Verify subplebbit owner signature
-  - [ ] HTTP gateway fallback if IPFS client undefined
+  - [x] HTTP gateway fallback if IPFS client undefined
 
 ## `plebbit-react`
 
