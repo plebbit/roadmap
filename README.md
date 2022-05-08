@@ -172,6 +172,7 @@
   - [ ] Unmoderated
 - [ ] Comment edit log
 - [ ] Comment vote log
+- [ ] CI/CD
 
 ## `plebbit-react`
 
@@ -189,6 +190,7 @@
 - [ ] Comment vote log
 - [ ] Integrated crypto wallet for desktop client
 - [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
+- [ ] CI/CD
 
 ## `plebbit-react-hooks`
 
@@ -202,6 +204,7 @@
 - [ ] Round robin multiple pubsub providers and IPFS gateways
 - [ ] Define all types
 - [ ] Remove all typescript any and @ts-ignore
+- [ ] CI/CD
 
 ## Misc
 
