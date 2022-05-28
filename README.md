@@ -178,6 +178,7 @@
 ## `plebbit-react-hooks`
 
 - [ ] Accounts actions
+  - [ ] publishSubplebbitEdit
   - [ ] deleteAccount
   - [ ] importAccount
   - [ ] exportAccount
