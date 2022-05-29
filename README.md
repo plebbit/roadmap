@@ -38,7 +38,7 @@
   - [x] Infinite scroll
   - [x] Loading skeleton
 - [x] Submit post page
-- [ ] Publish vote and captcha modal
+- [x] Publish vote and captcha modal
 - [x] Publish comment and captcha modal
 - [x] Auto login with default account
 - [x] Deploy demo to demo.plebbit.eth
@@ -145,7 +145,7 @@
   - [ ] Edit display name
   - [ ] Edit crypto wallet addresses (to receive tips and awards)
 - [ ] Feed page
-  - [ ] Author address (ENS or 12 characters public key)
+  - [ ] Author address (ENS or 14 characters public key)
   - [ ] Author avatar image
   - [ ] Author flair
   - [ ] Post flair
