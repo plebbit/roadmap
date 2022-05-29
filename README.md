@@ -9,6 +9,7 @@
   - [x] HTTP gateway fallback if IPFS client undefined
   - [x] Pubsub provider fallback if IPFS client undefined
   - [ ] Add signature to `PubsubMessage` and validate `PubsubMessage.signature`
+  - [ ] Encrypt `ChallengeMessage.challenges` and `ChallengeAnswerMessage.answers`
 - [ ] Get comment over IPFS/IPNS
   - [x] Verify author signature
   - [ ] Verify subplebbit owner signature
@@ -42,8 +43,11 @@
 - [ ] Auto login with default account
 - [x] Deploy demo to demo.plebbit.eth
 - [ ] Electron client
+  - [ ] Add windows icon
+  - [ ] Add mac icon
+  - [ ] Add linux .desktop file info and icon
   - [x] Builds and runs on Linux
-  - [ ] Builds and runs on Windows
+  - [x] Builds and runs on Windows
   - [x] Builds and runs on Mac
 
 ## `plebbit-react-hooks`
@@ -206,13 +210,16 @@
   - [ ] Video captcha challenge
   - [ ] Audio captcha challenge
   - [ ] More difficult image captcha challenge
-- [ ] Migrate to typescript
+  - [ ] Settings for less or no captcha for users with karma in the sub
+  - [ ] Settings for less or no captcha for users with karma in other subs
+- [x] Migrate to typescript
 - [ ] Mod subplebbit posts pages
   - [ ] Mod queue
   - [ ] Reports
   - [ ] Spam
   - [ ] Edited
   - [ ] Unmoderated
+- [ ] Report publication type (possibly just use CommentEdit, need to think of design)
 - [ ] Comment edit log
 - [ ] Comment vote log
 - [ ] Remove all typescript any and @ts-ignore
