@@ -265,3 +265,5 @@
 - [ ] Native Android client, APK only, no app store
 - [ ] Make `pubsub-provider` more spam resistant
 - [ ] Share provider (a server that caches a plebbit page and hosts it on a random domain for 24h to easily share on other social medias)
+- [ ] 4chan interface
+- [ ] Discourse interface
