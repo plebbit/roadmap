@@ -29,7 +29,7 @@
   - [ ] Add CI
   - [ ] Add CI including plebbit-react-hooks CI
   - [ ] Add way to run only 1 file in mocha tests with CLI
-- [ ] Bind `Plebbit`, `Comment`. `Subplebbit`, `Pages` classses public methods
+- [x] Bind `Plebbit`, `Comment`. `Subplebbit`, `Pages` classses public methods
 
 ## `plebbit-react`
 
@@ -40,7 +40,7 @@
 - [x] Submit post page
 - [ ] Publish vote and captcha modal
 - [x] Publish comment and captcha modal
-- [ ] Auto login with default account
+- [x] Auto login with default account
 - [x] Deploy demo to demo.plebbit.eth
 - [ ] Electron client
   - [ ] Add windows icon
@@ -123,6 +123,8 @@
   - [ ] Multiple challenges with progress indicator (e.g. 1/4)
 - [ ] Moderator/about pages
   - [ ] Subplebbit settings
+    - [ ] Instructions to export/backup subplebbit (backup the file ${plebbit.dataPath}/subplebbits/${subplebbit.address})
+    - [ ] Instructions to import subplebbit (copy the database file in ${plebbit.dataPath}/subplebbits/${subplebbit.address}) and refresh
   - [ ] Subplebbit appearance
   - [ ] Subplebbit rules
   - [ ] Subplebbit moderators
@@ -130,6 +132,8 @@
   - [ ] Account
     - [ ] Language
     - [ ] Location
+    - [ ] Export
+    - [ ] Import
   - [ ] Profile
     - [ ] NFT avatar
     - [ ] Display name
@@ -157,6 +161,9 @@
 - [ ] Comment page
   - [ ] Display markdown
   - [ ] Verify markdown <a> tags links don't allow remote execution in electron
+- [ ] Top menu
+  - [ ] Create more than 1 account
+  - [ ] Switch account
 - [ ] Translations
   - [ ] Arabic
   - [ ] Chinese
@@ -242,6 +249,7 @@
 - [ ] Comment vote log
 - [ ] Integrated crypto wallet for desktop client
 - [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
+- [ ] Interface to choose and sign NFT avatars so users don't have to go to Etherscan
 
 ## `plebbit-react-hooks`
 
