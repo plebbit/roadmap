@@ -10,6 +10,7 @@
   - [x] Pubsub provider fallback if IPFS client undefined
   - [ ] Add signature to `PubsubMessage` and validate `PubsubMessage.signature`
   - [ ] Encrypt `ChallengeMessage.challenges` and `ChallengeAnswerMessage.answers`
+  - [ ] Include Plebbit and plebbit-js version in every pubsub message
 - [ ] Get comment over IPFS/IPNS
   - [x] Verify author signature
   - [ ] Verify subplebbit owner signature
