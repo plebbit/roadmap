@@ -17,11 +17,10 @@
   - [x] HTTP gateway fallback if IPFS client undefined
   - [ ] Validate `comment.link` is valid with `new URL(comment.link).protocol === 'https:'` (all posts, comments and replies, and in pages)
 - [ ] Get subplebbit over IPNS
-  - [x] Verify signature
+  - [ ] Verify Subplebbit.signature (sub owner must sign subplebbit updates otherwise IPNS provider can lie)
   - [x] HTTP gateway fallback if IPFS client undefined
-- [ ] Get subplebbit pages over IPNS
+- [x] Get subplebbit pages over IPNS
   - [x] Verify author signature
-  - [ ] Verify subplebbit owner signature
   - [x] HTTP gateway fallback if IPFS client undefined
 - [ ] Tests
   - [ ] Tests run under 1 minute
@@ -283,3 +282,4 @@
 - [ ] Share provider (a server that caches a plebbit page and hosts it on a random domain for 24h to easily share on other social medias)
 - [ ] 4chan interface
 - [ ] Discourse interface
+- [ ] Validate IPFS CIDs and content gotten from public IPFS gateways (because they can lie)
