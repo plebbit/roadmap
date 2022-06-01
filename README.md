@@ -123,8 +123,8 @@
   - [ ] Multiple challenges with progress indicator (e.g. 1/4)
 - [ ] Moderator/about pages
   - [ ] Subplebbit settings
-    - [ ] Instructions to export/backup subplebbit (backup the file ${plebbit.dataPath}/subplebbits/${subplebbit.address})
-    - [ ] Instructions to import subplebbit (copy the database file in ${plebbit.dataPath}/subplebbits/${subplebbit.address}) and refresh
+    - [ ] Instructions to export/backup subplebbit (backup the file `${plebbit.dataPath}/subplebbits/${subplebbit.address}`)
+    - [ ] Instructions to import subplebbit (copy the database file in `${plebbit.dataPath}/subplebbits/${subplebbit.address}`) and refresh
   - [ ] Subplebbit appearance
   - [ ] Subplebbit rules
   - [ ] Subplebbit moderators
