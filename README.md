@@ -185,6 +185,9 @@
   - [ ] Playright browser tests
   - [ ] Add CI playright browser tests
   - [ ] Add CI/CD on master merge using plebbit-js, plebbit-react-hooks and plebbit-react tests
+- [ ] Add config for progressive web app
+- [ ] Add config for react-native build to Android APK
+- [ ] Add Android APK to automatic releases
 
 ## `plebbit-react-hooks`
 
