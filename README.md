@@ -113,6 +113,7 @@
 - [ ] Change dataPath to dataPath/subplebbits and dataPath/cache
 - [ ] Implement `Plebbit.getDefaults()`
 - [ ] Add `Plebbit.createSubplebbitEdit(createSubplebbitEditOptions)` and `CreateSubplebbitEditOptions` documentation to readme
+- [ ] Round robin multiple pubsub providers and IPFS gateways, change provider/gateway configs to arrays
 
 ## `plebbit-react`
 
@@ -263,7 +264,12 @@
   - [ ] hideComment
   - [ ] followAuthor
   - [ ] limitAddress
-- [ ] Round robin multiple pubsub providers and IPFS gateways
+- Multisubs
+  - [ ] `usePlebbitDefaults()`
+  - [ ] `useMultisub`
+  - [ ] `useMultisubs`
+  - [ ] incorporate multisubs with useFeed()
+  - [ ] `createMultisub()`
 - [ ] Define all types
 - [ ] Remove all typescript any and @ts-ignore
 
