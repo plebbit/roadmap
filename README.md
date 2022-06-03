@@ -206,7 +206,8 @@
 - [ ] PLEB tipping on AVAX
 - [ ] Gold and Silver NFT awards on AVAX
 - [ ] Filter feed by language
-- [ ] Filter feed by location  
+- [ ] Filter feed by location
+- [ ] Add account.warnings for ENS not resolving properly
 
 # Low priority
 
