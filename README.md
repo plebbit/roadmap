@@ -293,3 +293,4 @@
 - [ ] 4chan interface
 - [ ] Discourse interface
 - [ ] Validate IPFS CIDs and content gotten from public IPFS gateways (because they can lie)
+- [ ] Update desktop version over IPFS
