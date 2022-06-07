@@ -273,6 +273,9 @@
   - [ ] `createMultisub()`
 - [ ] Define all types
 - [ ] Remove all typescript any and @ts-ignore
+- [ ] Progressive scrolling of replies in a post for posts with 100+ replies
+- [ ] Include accountComments and accountVotes when importing/exporting
+- [ ] Don't subscribe to all accountComments at once, queue new ones with higher priority, and old ones with lower priority
 
 ## Misc
 
