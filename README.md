@@ -265,7 +265,7 @@
   - [ ] hideComment
   - [ ] followAuthor
   - [ ] limitAddress
-- Multisubs
+- [ ] Multisubs
   - [ ] `usePlebbitDefaults()`
   - [ ] `useMultisub`
   - [ ] `useMultisubs`
