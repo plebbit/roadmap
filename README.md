@@ -94,6 +94,8 @@
   - [ ] Resolve `author.address` ENS name
   - [ ] Verify NFT avatar signature
   - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
+  - [ ] Subplebbit owner adds comment.thumbnailUrl (optionally because it can leak IP)
+  - [ ] Electron and Android client can fetch comment.thumbnailUrl when not already available (optionally because it can leak IP)
 - [ ] Get subplebbit over IPNS
   - [ ] Resolve `subplebbit.address` ENS name
 - [ ] Get subplebbit pages over IPNS
@@ -255,6 +257,7 @@
 - [ ] Integrated crypto wallet for desktop client
 - [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
 - [ ] Interface to choose and sign NFT avatars so users don't have to go to Etherscan
+- [ ] Securely embed Twitter/Youtube/etc. (if possible to do securely)
 
 ## `plebbit-react-hooks`
 
@@ -300,3 +303,4 @@
 - [ ] Update desktop version over IPFS
 - [ ] CLI client
 - [ ] JSON-RPC client
+- [ ] Build open source plebbit archiver
