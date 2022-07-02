@@ -239,6 +239,7 @@
 - [ ] Remove all typescript any and @ts-ignore
 - [ ] Security
   - [ ] Context isolated desktop only functions to use in the electron client
+- [ ] Algo for most anonymous padding size for publication encryption
 
 ## `plebbit-react`
 
