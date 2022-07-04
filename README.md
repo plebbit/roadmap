@@ -116,6 +116,7 @@
 - [ ] Implement `Plebbit.getDefaults()`
 - [ ] Add `Plebbit.createSubplebbitEdit(createSubplebbitEditOptions)` and `CreateSubplebbitEditOptions` documentation to readme
 - [ ] Round robin multiple pubsub providers and IPFS gateways, change provider/gateway configs to arrays
+- [ ] Figure out how to block IPFS files larger than the max publication size
 
 ## `plebbit-react`
 
