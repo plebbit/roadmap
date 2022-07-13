@@ -260,6 +260,7 @@
 - [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
 - [ ] Interface to choose and sign NFT avatars so users don't have to go to Etherscan
 - [ ] Securely embed Twitter/Youtube/etc. (if possible to do securely)
+- [ ] Lazy resolve author addresses
 
 ## `plebbit-react-hooks`
 
