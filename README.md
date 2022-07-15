@@ -205,7 +205,14 @@
 - [x] Accounts hooks
   - [x] useAccountNotifications
 - [ ] Feeds hooks
-  - [ ] useAuthorComments
+  - [ ] useRepliesFeed
+- [ ] Authors hooks
+  - [ ] useAuthorComments or useAuthorFeed
+  - [ ] hook to get total karma and other profile info (possibly just include it in useAuthorFeed)
+- [ ] Multisubs hooks
+  - [ ] useFeed should resolve multisubs
+  - [ ] useMultisub
+  - [ ] createMultisub
 - [ ] PLEB tipping on AVAX
 - [ ] Gold and Silver NFT awards on AVAX
 - [ ] Filter feed by language
