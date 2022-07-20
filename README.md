@@ -289,6 +289,7 @@
 - [ ] Progressive scrolling of replies in a post for posts with 100+ replies
 - [ ] Include accountComments and accountVotes when importing/exporting
 - [ ] Don't subscribe to all accountComments at once, queue new ones with higher priority, and old ones with lower priority
+- [ ] Add statuses to all hooks, like success, error, ready, progress, etc
 
 ## Misc
 
