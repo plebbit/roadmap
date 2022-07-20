@@ -218,6 +218,7 @@
 - [ ] Filter feed by language
 - [ ] Filter feed by location
 - [ ] Add account.warnings for ENS not resolving properly
+- [ ] useResolvedSubplebbitAddress for debugging setting up ENS in a subplebbit
 
 # Low priority
 
@@ -248,6 +249,7 @@
 - [ ] Security
   - [ ] Context isolated desktop only functions to use in the electron client
 - [ ] Algo for most anonymous padding size for publication encryption
+- [ ] Make createSigner a native function with a `sign()` method to protect privateKey against XSS
 
 ## `plebbit-react`
 
@@ -268,6 +270,7 @@
 - [ ] Interface to choose and sign NFT avatars so users don't have to go to Etherscan
 - [ ] Securely embed Twitter/Youtube/etc. (if possible to do securely)
 - [ ] Lazy resolve author addresses
+- [ ] Add markdown XSS examples in content mock
 
 ## `plebbit-react-hooks`
 
