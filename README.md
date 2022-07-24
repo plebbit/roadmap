@@ -116,6 +116,7 @@
 - [ ] Implement `Plebbit.getDefaults()`
 - [ ] Add `Plebbit.createSubplebbitEdit(createSubplebbitEditOptions)` and `CreateSubplebbitEditOptions` documentation to readme
 - [ ] Round robin multiple pubsub providers and IPFS gateways, change provider/gateway configs to arrays
+- [ ] Make BlockchainProvider.rpcUrls an array, either to round robin or double validate responses
 - [ ] Figure out how to block IPFS files larger than the max publication size
 
 ## `plebbit-react`
@@ -271,6 +272,7 @@
 - [ ] Securely embed Twitter/Youtube/etc. (if possible to do securely)
 - [ ] Lazy resolve author addresses
 - [ ] Add markdown XSS examples in content mock
+- [ ] Make list of warnings and display them randomly in feeds, e.g. warn that subplebbits can be hacked and display scams. Maybe have a removable sticky with a list of common scams
 
 ## `plebbit-react-hooks`
 
