@@ -320,3 +320,6 @@
 - [ ] CLI client
 - [ ] JSON-RPC client
 - [ ] Build open source plebbit archiver
+- [ ] Integrate P2P DMs from another project
+- [ ] Integrate P2P live threads (chat) from another project
+- [ ] Integrate comment.link for livestreaming (with live thread)
