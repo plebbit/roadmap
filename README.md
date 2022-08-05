@@ -220,6 +220,8 @@
 - [ ] Filter feed by location
 - [ ] Add account.warnings for ENS not resolving properly
 - [ ] useResolvedSubplebbitAddress for debugging setting up ENS in a subplebbit
+- [ ] Filter blocked addresses from accounts notifications
+- [ ] Migrate feeds React context to Zustand
 
 # Low priority
 
