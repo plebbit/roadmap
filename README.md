@@ -275,6 +275,7 @@
 - [ ] Lazy resolve author addresses
 - [ ] Add markdown XSS examples in content mock
 - [ ] Make list of warnings and display them randomly in feeds, e.g. warn that subplebbits can be hacked and display scams. Maybe have a removable sticky with a list of common scams
+- [ ] Embed IPFS webui inside the electron app in the settings or profile page
 
 ## `plebbit-react-hooks`
 
