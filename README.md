@@ -23,11 +23,11 @@
   - [x] Verify author signature
   - [x] HTTP gateway fallback if IPFS client undefined
 - [ ] Tests
-  - [ ] Tests run under 1 minute
-  - [ ] Concurrent mocha tests
-  - [ ] Concurrent karma tests
-  - [ ] Add CI
-  - [ ] Add CI including plebbit-react-hooks CI
+  - [x] Tests run under 1 minute
+  - [x] Concurrent mocha tests
+  - [x] Concurrent karma tests
+  - [x] Add CI
+  - [x] Add CI including plebbit-react-hooks CI
   - [ ] Add way to run only 1 file in mocha tests with CLI
 - [x] Bind `Plebbit`, `Comment`. `Subplebbit`, `Pages` classses public methods
 
@@ -46,6 +46,8 @@
   - [ ] Add windows icon
   - [ ] Add mac icon
   - [ ] Add linux .desktop file info and icon
+  - [ ] Set up Plebbit app to open Plebbit links. Any link that starts with demo.plebbit.eth
+
   - [x] Builds and runs on Linux
   - [x] Builds and runs on Windows
   - [x] Builds and runs on Mac
@@ -97,7 +99,7 @@
   - [ ] Subplebbit owner adds comment.thumbnailUrl (optionally because it can leak IP)
   - [ ] Electron and Android client can fetch comment.thumbnailUrl when not already available (optionally because it can leak IP)
 - [ ] Get subplebbit over IPNS
-  - [ ] Resolve `subplebbit.address` ENS name
+  - [x] Resolve `subplebbit.address` ENS name
 - [ ] Get subplebbit pages over IPNS
   - [ ] Resolve `author.address` ENS name
   - [ ] Verify NFT avatar signature
@@ -107,11 +109,11 @@
   - [ ] Implement `Plebbit.getMultisub(multisubAddress): Multisub`
 - [ ] Subplebbits
   - [ ] Implement `Plebbit.createSubplebbitEdit(createSubplebbitEditOptions): SubplebbitEdit`
-- [ ] IPNS over pubsub
+- [x] IPNS over pubsub
 - [ ] Peers block spam IP addresses
 - [ ] Challenges
   - [ ] Text captcha challenge
-- [ ] Implement `Plebbit.listSubplebbits(): address[]`
+- [x] Implement `Plebbit.listSubplebbits(): address[]`
 - [ ] Change dataPath to dataPath/subplebbits and dataPath/cache
 - [ ] Implement `Plebbit.getDefaults()`
 - [ ] Add `Plebbit.createSubplebbitEdit(createSubplebbitEditOptions)` and `CreateSubplebbitEditOptions` documentation to readme
@@ -326,3 +328,4 @@
 - [ ] Integrate P2P DMs from another project
 - [ ] Integrate P2P live threads (chat) from another project
 - [ ] Integrate comment.link for livestreaming (with live thread)
+- [ ] Develop a tool to scrape a subreddit and copy its posts to Plebbit
