@@ -255,6 +255,7 @@
   - [ ] Context isolated desktop only functions to use in the electron client
 - [ ] Algo for most anonymous padding size for publication encryption
 - [ ] Make createSigner a native function with a `sign()` method to protect privateKey against XSS
+- [ ] Sort by active
 
 ## `plebbit-react`
 
@@ -300,6 +301,7 @@
 - [ ] Include accountComments and accountVotes when importing/exporting
 - [ ] Don't subscribe to all accountComments at once, queue new ones with higher priority, and old ones with lower priority
 - [ ] Add statuses to all hooks, like success, error, ready, progress, etc
+- [ ] Sort by active
 
 ## Misc
 
