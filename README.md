@@ -8,16 +8,16 @@
   - [x] Encryption
   - [x] HTTP gateway fallback if IPFS client undefined
   - [x] Pubsub provider fallback if IPFS client undefined
-  - [ ] Add signature to `PubsubMessage` and validate `PubsubMessage.signature`
-  - [ ] Encrypt `ChallengeMessage.challenges` and `ChallengeAnswerMessage.answers`
-  - [ ] Include Plebbit and plebbit-js version in every pubsub message
+  - [x] Add signature to `PubsubMessage` and validate `PubsubMessage.signature`
+  - [x] Encrypt `ChallengeMessage.challenges` and `ChallengeAnswerMessage.answers`
+  - [x] Include Plebbit and plebbit-js version in every pubsub message
 - [ ] Get comment over IPFS/IPNS
   - [x] Verify author signature
-  - [ ] Verify subplebbit owner signature
+  - [x] Verify subplebbit owner signature
   - [x] HTTP gateway fallback if IPFS client undefined
   - [ ] Validate `comment.link` is valid with `new URL(comment.link).protocol === 'https:'` (all posts, comments and replies, and in pages)
 - [ ] Get subplebbit over IPNS
-  - [ ] Verify Subplebbit.signature (sub owner must sign subplebbit updates otherwise IPNS provider can lie)
+  - [x] Verify Subplebbit.signature (sub owner must sign subplebbit updates otherwise IPNS provider can lie)
   - [x] HTTP gateway fallback if IPFS client undefined
 - [x] Get subplebbit pages over IPNS
   - [x] Verify author signature
@@ -90,7 +90,7 @@
 ## `plebbit-js`
 
 - [ ] Publish comment over pubsub
-  - [ ] Encrypt challenges and challengeAnswers
+  - [x] Encrypt challenges and challengeAnswers
   - [ ] Queue pubsub publishing when more than 5 keepalive connections in the browser
 - [ ] Get comment over IPFS/IPNS
   - [ ] Resolve `author.address` ENS name
