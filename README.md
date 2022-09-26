@@ -332,3 +332,4 @@
 - [ ] Integrate P2P live threads (chat) from another project
 - [ ] Integrate comment.link for livestreaming (with live thread)
 - [ ] Develop a tool to scrape a subreddit and copy its posts to Plebbit
+- [ ] Fallback to IPFS provider on desktop app when P2P not supported, like on cellular
