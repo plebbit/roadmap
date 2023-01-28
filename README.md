@@ -47,7 +47,6 @@
   - [ ] Add mac icon
   - [ ] Add linux .desktop file info and icon
   - [ ] Set up Plebbit app to open Plebbit links. Any link that starts with demo.plebbit.eth
-
   - [x] Builds and runs on Linux
   - [x] Builds and runs on Windows
   - [x] Builds and runs on Mac
@@ -256,6 +255,7 @@
 - [ ] Algo for most anonymous padding size for publication encryption
 - [ ] Make createSigner a native function with a `sign()` method to protect privateKey against XSS
 - [ ] Sort by active
+- [ ] PlebbitOptions.timeout for how long to keep retrying getComment/Subplebbit if it fails (currently doesn't retry at all)
 
 ## `plebbit-react`
 
