@@ -318,7 +318,7 @@
 - [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
 - [ ] Native Android client, APK only, no app store
 - [ ] Publish Android APK on F-Droid
-- [ ] Make `pubsub-provider` more spam resistant using provider catchas on top of subplebbit captchas (as part of the protocol)
+- [ ] Make pubsub-provider and ipfs gateway more spam resistant using provider catchas on top of subplebbit captchas (as part of the protocol)
 - [ ] Make fast IPNS provider
 - [ ] Share provider (a server that caches a plebbit page and hosts it on a random domain for 24h to easily share on other social medias)
 - [ ] 4chan interface
