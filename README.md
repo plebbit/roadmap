@@ -194,6 +194,19 @@
 - [ ] Add config for progressive web app
 - [ ] Add config for react-native build to Android APK
 - [ ] Add Android APK to automatic releases
+- [ ] Embeds
+  - [ ] Twitter
+  - [ ] Instagram
+  - [ ] Twitch
+  - [ ] Tiktok
+  - [ ] Youtube
+  - [ ] Rumble
+  - [ ] Odysee
+  - [ ] Bitchute
+  - [ ] Imgur
+  - [ ] Reddit
+  - [ ] Streamable
+  - [ ] Giphy
 
 ## `plebbit-react-hooks`
 
