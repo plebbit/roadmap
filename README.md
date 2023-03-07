@@ -269,6 +269,12 @@
 - [ ] Make createSigner a native function with a `sign()` method to protect privateKey against XSS
 - [ ] Sort by active
 - [ ] PlebbitOptions.timeout for how long to keep retrying getComment/Subplebbit if it fails (currently doesn't retry at all)
+- [ ] Pass `acceptedChallengeTypes` in Plebbit constructor
+- [ ] Make `updateInterval` and `publishInterval` public APIs
+- [ ] API for `postTitleMinLength`
+- [ ] Comment.archived and subplebbit.settings.archiveTimestampOlderThan, archiveLastReplyTimestampOlderThan
+- [ ] Spec for public gateway providers and public pubsub providers challenges
+- [ ] Retry infinity getComment, getSubplebbit, getPage with a global timeout in plebbitOptions
 
 ## `plebbit-react`
 
@@ -292,6 +298,9 @@
 - [ ] Add markdown XSS examples in content mock
 - [ ] Make list of warnings and display them randomly in feeds, e.g. warn that subplebbits can be hacked and display scams. Maybe have a removable sticky with a list of common scams
 - [ ] Embed IPFS webui inside the electron app in the settings or profile page
+- [ ] Notification count in ( ) and post.title in meta title
+- [ ] Web of trust recommendations from authors, i.e. look at the authors I upvote and find the subs they post in and recommend them
+- [ ] Playlist with autoplay for video/audio
 
 ## `plebbit-react-hooks`
 
@@ -315,6 +324,9 @@
 - [ ] Don't subscribe to all accountComments at once, queue new ones with higher priority, and old ones with lower priority
 - [ ] Add statuses to all hooks, like success, error, ready, progress, etc
 - [ ] Sort by active
+- [ ] Indicator to what HTML tag to use by analyzing comment.link (e.g. `useCommentLinkTagName(commentLink?: string): 'a' | 'img' | 'video' | 'audio'`)
+- [ ] Implement useThumbnailUrl() on desktop and android
+- [ ] Hook for plebbit and IPFS stats
 
 ## Misc
 
@@ -346,3 +358,8 @@
 - [ ] Integrate comment.link for livestreaming (with live thread)
 - [ ] Develop a tool to scrape a subreddit and copy its posts to Plebbit
 - [ ] Fallback to IPFS provider on desktop app when P2P not supported, like on cellular
+- [ ] Subplebbit uptime monitor and alerter
+- [ ] Video/audio player android/android tv client, similar to youtube, to play youtube, soundcloud, rumble, etc links directly, without ads and without visiting the original video site
+- [ ] ENS over IPFS, create a trie of all ENS domains, and resolve the new trie daily using IPNS, to resolve ENS over IPFS, without needing an ETH provider
+- [ ] Configurable search and recommendation RPC, several centralized providers could provide their API and the user can choose which API to use
+- [ ] Substack / patreon / medium like interface, to publish long text and paywalled content
