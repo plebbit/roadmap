@@ -275,7 +275,8 @@
 - [ ] Comment.archived and subplebbit.settings.archiveTimestampOlderThan, archiveLastReplyTimestampOlderThan
 - [ ] Spec for public gateway providers and public pubsub providers challenges
 - [ ] Retry infinity getComment, getSubplebbit, getPage with a global timeout in plebbitOptions
-
+- [ ] Comment.linkRemoved to remove only the link, like on 4chan
+  
 ## `plebbit-react`
 
 - [ ] Moderator/about pages
