@@ -160,9 +160,10 @@
   - [x] Sidebar popular communities
   - [x] Nicely display broken images and thumbnails
   - [x] Switch sort types
-- [x] Comment page
+- [ ] Comment page
   - [x] Display markdown
   - [x] Verify markdown <a> tags links don't allow remote execution in electron
+  - [ ] Cross posts
 - [x] Top menu
   - [x] Create more than 1 account
   - [x] Switch account
