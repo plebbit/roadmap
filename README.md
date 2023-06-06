@@ -224,7 +224,7 @@
   - [ ] useFeed should resolve multisubs
   - [ ] useMultisub
   - [ ] createMultisub
-- [ ] PLEB tipping
+- [ ] Tipping
 - [ ] Gold and Silver NFT awards
 - [ ] Filter feed by language
 - [ ] Filter feed by location
