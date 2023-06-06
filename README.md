@@ -2,7 +2,7 @@
 
 ## `plebbit-js`
 
-- [ ] Publish comment over pubsub
+- [x] Publish comment over pubsub
   - [x] Captcha
   - [x] Signature
   - [x] Encryption
@@ -11,29 +11,29 @@
   - [x] Add signature to `PubsubMessage` and validate `PubsubMessage.signature`
   - [x] Encrypt `ChallengeMessage.challenges` and `ChallengeAnswerMessage.answers`
   - [x] Include Plebbit and plebbit-js version in every pubsub message
-- [ ] Get comment over IPFS/IPNS
+- [x] Get comment over IPFS/IPNS
   - [x] Verify author signature
   - [x] Verify subplebbit owner signature
   - [x] HTTP gateway fallback if IPFS client undefined
-  - [ ] Validate `comment.link` is valid with `new URL(comment.link).protocol === 'https:'` (all posts, comments and replies, and in pages)
-- [ ] Get subplebbit over IPNS
+  - [x] Validate `comment.link` is valid with `new URL(comment.link).protocol === 'https:'` (all posts, comments and replies, and in pages)
+- [x] Get subplebbit over IPNS
   - [x] Verify Subplebbit.signature (sub owner must sign subplebbit updates otherwise IPNS provider can lie)
   - [x] HTTP gateway fallback if IPFS client undefined
 - [x] Get subplebbit pages over IPNS
   - [x] Verify author signature
   - [x] HTTP gateway fallback if IPFS client undefined
-- [ ] Tests
+- [x] Tests
   - [x] Tests run under 1 minute
   - [x] Concurrent mocha tests
   - [x] Concurrent karma tests
   - [x] Add CI
   - [x] Add CI including plebbit-react-hooks CI
-  - [ ] Add way to run only 1 file in mocha tests with CLI
+  - [x] Add way to run only 1 file in mocha tests with CLI
 - [x] Bind `Plebbit`, `Comment`. `Subplebbit`, `Pages` classses public methods
 
 ## `plebbit-react`
 
-- [ ] Post page
+- [x] Post page
 - [x] Feed page
   - [x] Infinite scroll
   - [x] Loading skeleton
@@ -43,8 +43,8 @@
 - [x] Auto login with default account
 - [x] Deploy demo to demo.plebbit.eth
 - [ ] Electron client
-  - [ ] Add windows icon
-  - [ ] Add mac icon
+  - [x] Add windows icon
+  - [x] Add mac icon
   - [ ] Add linux .desktop file info and icon
   - [ ] Set up Plebbit app to open Plebbit links. Any link that starts with demo.plebbit.eth
   - [x] Builds and runs on Linux
@@ -71,18 +71,18 @@
 - [x] Comments hooks
   - [x] useComment
   - [x] useComments
-- [ ] Subplebbits hooks
+- [x] Subplebbits hooks
   - [x] useSubplebbit
   - [x] useSubplebbits
-  - [ ] Make Cloudflare not cache IPNS requests
+  - [x] Make Cloudflare not cache IPNS requests
 - [x] Feeds hooks
   - [x] useFeed
   - [x] useBufferedFeeds
-- [ ] Tests
+- [x] Tests
   - [x] Add CI
-  - [ ] Clean up tests to be smaller and give better errors
-  - [ ] Add CI integration tests with plebbit-js (after the plebbit-js test are optimized)
-  - [ ] Add way to run only 1 file in mocha tests with CLI
+  - [x] Clean up tests to be smaller and give better errors
+  - [x] Add CI integration tests with plebbit-js (after the plebbit-js test are optimized)
+  - [x] Add way to run only 1 file in mocha tests with CLI
 
 # MVP roadmap
 
@@ -92,17 +92,13 @@
   - [x] Encrypt challenges and challengeAnswers
   - [ ] Queue pubsub publishing when more than 5 keepalive connections in the browser
 - [ ] Get comment over IPFS/IPNS
-  - [ ] Resolve `author.address` ENS name
-  - [ ] Verify NFT avatar signature
-  - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
-  - [ ] Subplebbit owner adds comment.thumbnailUrl (optionally because it can leak IP)
+  - [x] Resolve `author.address` ENS name
+  - [x] Subplebbit owner adds comment.thumbnailUrl (optionally because it can leak IP)
   - [ ] Electron and Android client can fetch comment.thumbnailUrl when not already available (optionally because it can leak IP)
-- [ ] Get subplebbit over IPNS
+- [x] Get subplebbit over IPNS
   - [x] Resolve `subplebbit.address` ENS name
 - [ ] Get subplebbit pages over IPNS
-  - [ ] Resolve `author.address` ENS name
-  - [ ] Verify NFT avatar signature
-  - [ ] Add NFT URL to `comment.author.avatar.imageUrl`
+  - [x] Resolve `author.address` ENS name
 - [ ] Multisubs
   - [ ] Implement `Plebbit.createMultisub(createMultisubOptions): Multisub`
   - [ ] Implement `Plebbit.getMultisub(multisubAddress): Multisub`
@@ -113,63 +109,63 @@
 - [ ] Challenges
   - [ ] Text captcha challenge
 - [x] Implement `Plebbit.listSubplebbits(): address[]`
-- [ ] Change dataPath to dataPath/subplebbits and dataPath/cache
+- [x] Change dataPath to dataPath/subplebbits and dataPath/cache
 - [ ] Implement `Plebbit.getDefaults()`
 - [ ] Add `Plebbit.createSubplebbitEdit(createSubplebbitEditOptions)` and `CreateSubplebbitEditOptions` documentation to readme
-- [ ] Round robin multiple pubsub providers and IPFS gateways, change provider/gateway configs to arrays
+- [x] Round robin multiple pubsub providers and IPFS gateways, change provider/gateway configs to arrays
 - [ ] Make BlockchainProvider.rpcUrls an array, either to round robin or double validate responses
-- [ ] Figure out how to block IPFS files larger than the max publication size
+- [x] Figure out how to block IPFS files larger than the max publication size
 
 ## `plebbit-react`
 
 - [ ] Challenges
   - [ ] Text captcha challenge
-  - [ ] Challenge success/fail notification
+  - [x] Challenge success/fail notification
   - [ ] Information about the publication on the challenge modal
   - [ ] Multiple challenges with progress indicator (e.g. 1/4)
 - [ ] Moderator/about pages
   - [ ] Subplebbit settings
     - [ ] Instructions to export/backup subplebbit (backup the file `${plebbit.dataPath}/subplebbits/${subplebbit.address}`)
     - [ ] Instructions to import subplebbit (copy the database file in `${plebbit.dataPath}/subplebbits/${subplebbit.address}`) and refresh
-  - [ ] Subplebbit appearance
-  - [ ] Subplebbit rules
-  - [ ] Subplebbit moderators
+  - [x] Subplebbit appearance
+  - [x] Subplebbit rules
+  - [x] Subplebbit moderators
 - [ ] Settings pages
   - [ ] Account
     - [ ] Language
     - [ ] Location
-    - [ ] Export
-    - [ ] Import
+    - [x] Export
+    - [x] Import
   - [ ] Profile
-    - [ ] NFT avatar
-    - [ ] Display name
+    - [x] NFT avatar
+    - [x] Display name
     - [ ] Crypto wallet addresses (to receive tips and awards)
   - [ ] Safety & Privacy
     - [ ] Blocked addresses
 - [ ] Own profile page
-  - [ ] Edit NFT avatar
-  - [ ] Edit display name
+  - [x] Edit NFT avatar
+  - [x] Edit display name
   - [ ] Edit crypto wallet addresses (to receive tips and awards)
 - [ ] Feed page
-  - [ ] Author address (ENS or 14 characters public key)
-  - [ ] Author avatar image
-  - [ ] Author flair
-  - [ ] Post flair
-  - [ ] Date
-  - [ ] Full embed images
-  - [ ] Small thumbnails
-  - [ ] Share button
+  - [x] Author address (ENS or 14 characters public key)
+  - [x] Author avatar image
+  - [x] Author flair
+  - [x] Post flair
+  - [x] Date
+  - [x] Full embed images
+  - [x] Small thumbnails
+  - [x] Share button
   - [ ] Block button
-  - [ ] Sidebar links
-  - [ ] Sidebar popular communities
-  - [ ] Nicely display broken images and thumbnails
-  - [ ] Switch sort types
-- [ ] Comment page
-  - [ ] Display markdown
-  - [ ] Verify markdown <a> tags links don't allow remote execution in electron
-- [ ] Top menu
-  - [ ] Create more than 1 account
-  - [ ] Switch account
+  - [x] Sidebar links
+  - [x] Sidebar popular communities
+  - [x] Nicely display broken images and thumbnails
+  - [x] Switch sort types
+- [x] Comment page
+  - [x] Display markdown
+  - [x] Verify markdown <a> tags links don't allow remote execution in electron
+- [x] Top menu
+  - [x] Create more than 1 account
+  - [x] Switch account
 - [ ] Translations
   - [ ] Arabic
   - [ ] Chinese
@@ -186,14 +182,14 @@
 - [ ] Improve logo and 'plebbit' text light and dark mode
 - [ ] Improve captcha modal design
 - [ ] Search default subs
-- [ ] Pubsub HTTP client can open unlimited keepalive connections without timeout in electron
+- [x] Pubsub HTTP client can open unlimited keepalive connections without timeout in electron
 - [ ] Tests
   - [ ] Playright browser tests
   - [ ] Add CI playright browser tests
   - [ ] Add CI/CD on master merge using plebbit-js, plebbit-react-hooks and plebbit-react tests
-- [ ] Add config for progressive web app
-- [ ] Add config for react-native build to Android APK
-- [ ] Add Android APK to automatic releases
+- [x] Add config for progressive web app
+- [x] Add config for react-native build to Android APK
+- [x] Add Android APK to automatic releases
 - [ ] Embeds
   - [ ] Twitter
   - [ ] Instagram
@@ -212,30 +208,30 @@
 
 - [ ] Accounts actions
   - [ ] publishSubplebbitEdit
-  - [ ] deleteAccount
-  - [ ] importAccount
-  - [ ] exportAccount
+  - [x] deleteAccount
+  - [x] importAccount
+  - [x] exportAccount
   - [ ] deleteComment
-  - [ ] blockAddress
+  - [x] blockAddress
 - [x] Accounts hooks
   - [x] useAccountNotifications
 - [ ] Feeds hooks
   - [ ] useRepliesFeed
-- [ ] Authors hooks
-  - [ ] useAuthorComments or useAuthorFeed
-  - [ ] hook to get total karma and other profile info (possibly just include it in useAuthorFeed)
+- [x] Authors hooks
+  - [x] useAuthorComments or useAuthorFeed
+  - [x] hook to get total karma and other profile info (possibly just include it in useAuthorFeed)
 - [ ] Multisubs hooks
   - [ ] useFeed should resolve multisubs
   - [ ] useMultisub
   - [ ] createMultisub
-- [ ] PLEB tipping on AVAX
-- [ ] Gold and Silver NFT awards on AVAX
+- [ ] PLEB tipping
+- [ ] Gold and Silver NFT awards
 - [ ] Filter feed by language
 - [ ] Filter feed by location
 - [ ] Add account.warnings for ENS not resolving properly
 - [ ] useResolvedSubplebbitAddress for debugging setting up ENS in a subplebbit
 - [ ] Filter blocked addresses from accounts notifications
-- [ ] Migrate feeds React context to Zustand
+- [x] Migrate feeds React context to Zustand
 
 # Low priority
 
@@ -263,18 +259,17 @@
 - [ ] Comment edit log
 - [ ] Comment vote log
 - [ ] Remove all typescript any and @ts-ignore
-- [ ] Security
-  - [ ] Context isolated desktop only functions to use in the electron client
+- [x] Security
+  - [x] Context isolated desktop only functions to use in the electron client
 - [ ] Algo for most anonymous padding size for publication encryption
-- [ ] Make createSigner a native function with a `sign()` method to protect privateKey against XSS
+- [x] Make createSigner a native function with a `sign()` method to protect privateKey against XSS
 - [ ] Sort by active
-- [ ] PlebbitOptions.timeout for how long to keep retrying getComment/Subplebbit if it fails (currently doesn't retry at all)
 - [ ] Pass `acceptedChallengeTypes` in Plebbit constructor
-- [ ] Make `updateInterval` and `publishInterval` public APIs
+- [x] Make `updateInterval` and `publishInterval` public APIs
 - [ ] API for `postTitleMinLength`
 - [ ] Comment.archived and subplebbit.settings.archiveTimestampOlderThan, archiveLastReplyTimestampOlderThan
 - [ ] Spec for public gateway providers and public pubsub providers challenges
-- [ ] Retry infinity getComment, getSubplebbit, getPage with a global timeout in plebbitOptions
+- [x] Retry infinity getComment, getSubplebbit, getPage with a global timeout in plebbitOptions
 - [ ] Comment.linkRemoved to remove only the link, like on 4chan
   
 ## `plebbit-react`
@@ -296,10 +291,10 @@
 - [ ] Interface to choose and sign NFT avatars so users don't have to go to Etherscan
 - [ ] Securely embed Twitter/Youtube/etc. (if possible to do securely)
 - [ ] Lazy resolve author addresses
-- [ ] Add markdown XSS examples in content mock
+- [x] Add markdown XSS examples in content mock
 - [ ] Make list of warnings and display them randomly in feeds, e.g. warn that subplebbits can be hacked and display scams. Maybe have a removable sticky with a list of common scams
 - [ ] Embed IPFS webui inside the electron app in the settings or profile page
-- [ ] Notification count in ( ) and post.title in meta title
+- [x] Notification count in ( ) and post.title in meta title
 - [ ] Web of trust recommendations from authors, i.e. look at the authors I upvote and find the subs they post in and recommend them
 - [ ] Playlist with autoplay for video/audio
 
@@ -309,7 +304,7 @@
   - [ ] publishReport
   - [ ] saveComment
   - [ ] followComment
-  - [ ] hideComment
+  - [x] hideComment
   - [ ] followAuthor
   - [ ] limitAddress
 - [ ] Multisubs
@@ -333,23 +328,21 @@
 
 - [ ] PLEB reward interface for best posts by plebbit team
 - [ ] ERC20 reward interface for best posts by subplebbit owners
-- [ ] PLEB DAO vote for curated NFT collection on AVAX
-- [ ] PLEB DAO vote for curated multisubs on AVAX
+- [ ] PLEB DAO vote for curated NFT collection
+- [ ] PLEB DAO vote for curated multisubs
 - [ ] Moderator log (a `Page` of CommentEdit publications available both on `Subplebbit.posts` and `Comment.replies`)
 - [ ] Vote log (a `Page` of CommentEdit publications available both on `Subplebbit.posts` and `Comment.replies`)
 - [ ] Event/Meetup post type (to compete with Facebook and Meetup.com events)
 - [ ] Marketplace post type (to compete with Facebook marketplace, Shopify, Amazon)
 - [ ] Fundraiser post type (to compete with Gofundme and Kickstarter)
 - [ ] Sync accounts between multiple devices
-- [ ] Encrypt private key PEM with password at rest (similar to MetaMask)
-- [ ] Native Android client, APK only, no app store
+- [ ] Encrypt private key with password at rest (similar to MetaMask)
 - [ ] Publish Android APK on F-Droid
 - [ ] Make pubsub-provider and ipfs gateway more spam resistant using provider catchas on top of subplebbit captchas (as part of the protocol)
-- [ ] Make fast IPNS provider
 - [ ] Share provider (a server that caches a plebbit page and hosts it on a random domain for 24h to easily share on other social medias)
-- [ ] 4chan interface
+- [x] 4chan interface
 - [ ] Discourse interface
-- [ ] Validate IPFS CIDs and content gotten from public IPFS gateways (because they can lie)
+- [x] Validate IPFS CIDs and content gotten from public IPFS gateways (because they can lie)
 - [ ] Update desktop version over IPFS
 - [ ] CLI client
 - [ ] JSON-RPC client
