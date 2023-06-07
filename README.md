@@ -205,6 +205,7 @@
   - [ ] Streamable
   - [ ] Giphy
   - [ ] Soundcloud
+  - [ ] Bandcamp
 
 ## `plebbit-react-hooks`
 
