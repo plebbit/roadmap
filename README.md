@@ -206,6 +206,7 @@
   - [ ] Giphy
   - [ ] Soundcloud
   - [ ] Bandcamp
+  - [ ] Spotify
 
 ## `plebbit-react-hooks`
 
