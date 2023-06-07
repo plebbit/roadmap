@@ -207,6 +207,7 @@
   - [ ] Soundcloud
   - [ ] Bandcamp
   - [ ] Spotify
+  - [ ] Google Drive
 
 ## `plebbit-react-hooks`
 
