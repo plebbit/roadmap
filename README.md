@@ -204,6 +204,7 @@
   - [ ] Reddit
   - [ ] Streamable
   - [ ] Giphy
+  - [ ] Soundcloud
 
 ## `plebbit-react-hooks`
 
