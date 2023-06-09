@@ -363,3 +363,5 @@
 - [ ] Configurable search and recommendation RPC, several centralized providers could provide their API and the user can choose which API to use
 - [ ] Substack / patreon / medium like interface, to publish long text and paywalled content
 - [ ] Stackexchange like interface with LaTeX support
+- [ ] Centralized service to index/search plebbit, like warosu.org
+- [ ] Centralized service to run subs for others for free
