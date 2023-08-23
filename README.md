@@ -197,17 +197,17 @@
   - [ ] Twitch
   - [ ] Tiktok
   - [ ] Youtube
-  - [ ] Rumble
   - [ ] Odysee
   - [ ] Bitchute
-  - [ ] Imgur
   - [ ] Reddit
   - [ ] Streamable
-  - [ ] Giphy
-  - [ ] Soundcloud
-  - [ ] Bandcamp
-  - [ ] Spotify
-  - [ ] Google Drive
+  - [ ] Imgur (not needed, they give direct links to .png)
+  - [ ] Giphy (not needed, they give direct links to .gif)
+  - [ ] Soundcloud (doesn't seem possible without API)
+  - [ ] Bandcamp (need to research, low priority)
+  - [ ] Spotify (need to research, low priority)
+  - [ ] Google Drive (need to research)
+  - [ ] Rumble (doesn't seem possible without API)
 
 ## `plebbit-react-hooks`
 
