@@ -206,7 +206,7 @@
   - [ ] Soundcloud (doesn't seem possible without API)
   - [ ] Bandcamp (need to research, low priority)
   - [ ] Spotify (need to research, low priority)
-  - [ ] Google Drive (need to research)
+  - [ ] Google Drive (need to research, low priority)
   - [ ] Rumble (doesn't seem possible without API)
 
 ## `plebbit-react-hooks`
