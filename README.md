@@ -201,13 +201,13 @@
   - [ ] Bitchute
   - [ ] Reddit
   - [ ] Streamable
+  - [ ] Spotify
   - [ ] Imgur (not needed, they give direct links to .png)
   - [ ] Giphy (not needed, they give direct links to .gif)
-  - [ ] Soundcloud (doesn't seem possible without API)
-  - [ ] Bandcamp (need to research, low priority)
-  - [ ] Spotify (need to research, low priority)
-  - [ ] Google Drive (need to research, low priority)
   - [ ] Rumble (doesn't seem possible without API)
+  - [ ] Soundcloud (doesn't seem possible without API)
+  - [ ] Bandcamp (doesn't seem possible without API)
+  - [ ] Google Drive (need to research, low priority)
 
 ## `plebbit-react-hooks`
 
