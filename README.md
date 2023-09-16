@@ -365,3 +365,4 @@
 - [ ] Stackexchange like interface with LaTeX support
 - [ ] Centralized service to index/search plebbit, like warosu.org
 - [ ] Centralized service to run subs for others for free
+- [ ] vBulletin v3 client
