@@ -276,7 +276,7 @@
 - [ ] Spec for public gateway providers and public pubsub providers challenges
 - [x] Retry infinity getComment, getSubplebbit, getPage with a global timeout in plebbitOptions
 - [ ] Comment.linkRemoved to remove only the link, like on 4chan
-  
+
 ## `plebbit-react`
 
 - [ ] Moderator/about pages
@@ -328,6 +328,7 @@
 - [ ] Indicator to what HTML tag to use by analyzing comment.link (e.g. `useCommentLinkTagName(commentLink?: string): 'a' | 'img' | 'video' | 'audio'`)
 - [ ] Implement useThumbnailUrl() on desktop and android
 - [ ] Hook for plebbit and IPFS stats
+- [ ] Block communities / comments / authors based on keyword / tag / language / etc
 
 ## Misc
 
