@@ -276,6 +276,9 @@
 - [ ] Spec for public gateway providers and public pubsub providers challenges
 - [x] Retry infinity getComment, getSubplebbit, getPage with a global timeout in plebbitOptions
 - [ ] Comment.linkRemoved to remove only the link, like on 4chan
+- [ ] image galleries
+- [ ] video/audio playlists
+- [ ] frames like farcaster
 
 ## `plebbit-react`
 
@@ -329,8 +332,6 @@
 - [ ] Implement useThumbnailUrl() on desktop and android
 - [ ] Hook for plebbit and IPFS stats
 - [ ] Block communities / comments / authors based on keyword / tag / language / etc
-- [ ] image galleries
-- [ ] video/audio playlists
 
 ## Misc
 
