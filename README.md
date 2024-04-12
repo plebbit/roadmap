@@ -329,6 +329,8 @@
 - [ ] Implement useThumbnailUrl() on desktop and android
 - [ ] Hook for plebbit and IPFS stats
 - [ ] Block communities / comments / authors based on keyword / tag / language / etc
+- [ ] image galleries
+- [ ] video/audio playlists
 
 ## Misc
 
