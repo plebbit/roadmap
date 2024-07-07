@@ -279,6 +279,7 @@
 - [ ] image galleries
 - [ ] video/audio playlists
 - [ ] frames like farcaster
+- [ ] "sage" option like 4chan to reply to a post without bumping it in the active sort. Unclear what this API should be called at the moment
 
 ## `plebbit-react`
 
